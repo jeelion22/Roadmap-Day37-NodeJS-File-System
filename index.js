@@ -43,6 +43,10 @@ const PORT = 5000;
 app.get("/", (req, res) => {
   const msg = {
     message: "welcome to timestamped file creation",
+    createFile:
+      "https://roadmap-day37-nodejs-file-system.onrender.com/filecreate",
+    readFileDirectory:
+      "https://roadmap-day37-nodejs-file-system.onrender.com/readfiledir",
   };
 
   res.send(msg);
