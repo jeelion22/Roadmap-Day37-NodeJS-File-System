@@ -37,7 +37,7 @@ const writeFile = () => {
 
 // initialize the webserver
 const app = express();
-const PORT = 4000;
+const PORT = 5000;
 
 // root
 app.get("/", (req, res) => {
